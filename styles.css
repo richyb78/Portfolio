@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto Mono";
+    width: 70%;
+    margin: auto;
+   
+}
+
+header {
+    height: 80px;
+    
+}
+
+h1 {
+    float: left;
+    margin: 20px;
+    margin-left: 0px;
+
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+a {
+    margin-left: 50px;
+}
+
+.me {
+    width: 100%;
+    
+}
+ section {
+    position: relative;
+ }
+
+ .intro {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 50%;
+
+ }
+
+ .greeting {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+ }
+
+ h3 {
+   position: absolute;
+   top: 60%;
+   left: 35%;
+   background-color: white;
+   padding: 10px;
+   border-radius: 20px;
+ }
+
+ .projects  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .KB {
+    width: 32%;
+    height: 300px;
+    background-color: aqua; 
+ }
+
+ .BC {
+    width: 32%;
+    height: 300px;
+    background-color: aqua; 
+ }
+ 
+ .CB {
+    width: 32%;
+    height: 300px;
+    background-color: aqua; 
+ }
+ 
+ 
+ 
