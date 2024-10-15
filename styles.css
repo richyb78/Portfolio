@@ -28,6 +28,7 @@ a {
 
 .me {
     width: 100%;
+    border-radius: 10px;
     
 }
  section {
@@ -50,7 +51,7 @@ a {
     left: 35%;
  }
 
- h3 {
+ .getintouch {
    position: absolute;
    top: 60%;
    left: 35%;
@@ -65,25 +66,64 @@ a {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+
  }
 
  .KB {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px;
  }
 
  .BC {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px;
  }
  
  .CB {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px; 
  }
  
+ .jc {
+   width: 32%;
+   height: 400px;
+}
+.ap {
+   width: 32%;
+   height: 400px;
+}
+.omjp {
+   width: 32%;
+   height: 400px;
+}
+
+ .kb1 {
+    width: 100%;
+    border-radius: 5px;
+    
+ }
+ 
+ .skills  {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+}
+
+.skills-html, .skills-css, .skills-js {
+   width: 32%;
+   height: 100px;
+   background-color: #252a4a ;
+   color: white;
+   border-radius: 5px;
+}
+
+footer {
+
+
+}
+
  
  
