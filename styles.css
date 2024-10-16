@@ -2,19 +2,21 @@ body {
     font-family: "Roboto Mono";
     width: 70%;
     margin: auto;
-   
 }
 
 header {
     height: 80px;
-    
 }
 
 h1 {
     float: left;
     margin: 20px;
     margin-left: 0px;
+}
 
+h2 {
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 nav {
@@ -28,9 +30,9 @@ a {
 
 .me {
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
+
  section {
     position: relative;
  }
@@ -41,7 +43,6 @@ a {
     top: 30%;
     left: 35%;
     width: 50%;
-
  }
 
  .greeting {
@@ -67,7 +68,6 @@ a {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-
  }
 
  .KB {
@@ -84,15 +84,17 @@ a {
     width: 32%;
     height: 400px; 
  }
- 
+
  .jc {
    width: 32%;
    height: 400px;
 }
+
 .ap {
    width: 32%;
    height: 400px;
 }
+
 .omjp {
    width: 32%;
    height: 400px;
@@ -101,7 +103,6 @@ a {
  .kb1 {
     width: 100%;
     border-radius: 5px;
-    
  }
  
  .skills  {
@@ -120,10 +121,29 @@ a {
    border-radius: 5px;
 }
 
-footer {
-
+.aboutme {
+display: flex;
+width: 100%;
 
 }
+
+.holding {
+   background-color: #252a4a;
+   color: white;
+   padding: 100px;
+
+}
+
+footer {
+   display: flex;
+   width: 100%;
+}
+
+.footernav {
+   
+   margin: 20px;
+}
+
 
  
  
