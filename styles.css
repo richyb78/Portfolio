@@ -2,19 +2,21 @@ body {
     font-family: "Roboto Mono";
     width: 70%;
     margin: auto;
-   
 }
 
 header {
     height: 80px;
-    
 }
 
 h1 {
     float: left;
     margin: 20px;
     margin-left: 0px;
+}
 
+h2 {
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 nav {
@@ -28,8 +30,9 @@ a {
 
 .me {
     width: 100%;
-    
+    border-radius: 10px; 
 }
+
  section {
     position: relative;
  }
@@ -40,7 +43,6 @@ a {
     top: 30%;
     left: 35%;
     width: 50%;
-
  }
 
  .greeting {
@@ -50,7 +52,7 @@ a {
     left: 35%;
  }
 
- h3 {
+ .getintouch {
    position: absolute;
    top: 60%;
    left: 35%;
@@ -65,25 +67,115 @@ a {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
  }
 
  .KB {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px;
  }
 
  .BC {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px;
  }
  
  .CB {
     width: 32%;
-    height: 300px;
-    background-color: aqua; 
+    height: 400px; 
+ }
+
+ .jc {
+   width: 32%;
+   height: 400px;
+}
+
+.ap {
+   width: 32%;
+   height: 400px;
+}
+
+.omjp {
+   width: 32%;
+   height: 400px;
+}
+
+ .kb1 {
+    width: 100%;
+    border-radius: 5px;
  }
  
+ .skills  {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.skills-html, .skills-css, .skills-js {
+   height: 100px;
+   color: black;
+   margin-bottom: 50px;
+   
+}
+
+.html, .css, .js, .git, .chrome {
+   height: 100%;
+}
+
+h5 {
+  margin: 5px;
+  text-align: center;
+}
+
+.aboutme {
+display: flex;
+width: 100%;
+
+}
+
+.holding {
+   background-color: #252a4a;
+   color: white;
+   padding: 100px;
+
+}
+
+input[type=text], textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid: #252a4a;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit] {
+   background-color:#252a4a;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .container {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+ }
+footer {
+   display: flex;
+   width: 100%;
+}
+
+.footernav {
+   
+   margin: 20px;
+}
+
+
  
  
