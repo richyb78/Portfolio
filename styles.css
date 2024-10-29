@@ -5,60 +5,62 @@ body {
 }
 
 header {
-    height: 80px;
+    width: 100%;
+    display: block;
 }
 
 h1 {
     float: left;
-    margin: 20px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 h2 {
-margin-top: 30px;
-margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 nav {
     float: right;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 a {
-    margin-left: 50px;
+   color: black;
+    margin-left: 6rem;
+    text-decoration: none;
 }
 
-.me {
+.introduction {
+    display: inline-block;
+    background-image: url(Pictures/me.jpg);
+    background-size: cover;
     width: 100%;
-    border-radius: 10px; 
+    height: 23em;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
- section {
-    position: relative;
- }
+.intro {
+   width: 70%;
+   height: 100%;
+   float: right; 
+}
 
- .intro {
+ .hello {
     color: white;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    width: 50%;
- }
-
- .greeting {
-    color: white;
-    position: absolute;
-    top: 15%;
-    left: 35%;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
  }
 
  .getintouch {
-   position: absolute;
-   top: 60%;
-   left: 35%;
-   background-color: white;
-   padding: 10px;
-   border-radius: 20px;
+    background-color: white;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 0.5rem;
+    margin-left: 5rem;
  }
 
  .projects  {
@@ -70,35 +72,10 @@ a {
     flex-wrap: wrap;
  }
 
- .KB {
+ .KB, .BC, .CB, .jc, .ap, .omjp {
     width: 32%;
     height: 400px;
  }
-
- .BC {
-    width: 32%;
-    height: 400px;
- }
- 
- .CB {
-    width: 32%;
-    height: 400px; 
- }
-
- .jc {
-   width: 32%;
-   height: 400px;
-}
-
-.ap {
-   width: 32%;
-   height: 400px;
-}
-
-.omjp {
-   width: 32%;
-   height: 400px;
-}
 
  .kb1 {
     width: 100%;
@@ -106,76 +83,206 @@ a {
  }
  
  .skills  {
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .skills-html, .skills-css, .skills-js {
-   height: 100px;
-   color: black;
-   margin-bottom: 50px;
-   
+    height: 7rem;
+    color: black;
+    margin-bottom: 50px; 
 }
 
 .html, .css, .js, .git, .chrome {
-   height: 100%;
+    height: 100%;
 }
 
 h5 {
-  margin: 5px;
-  text-align: center;
+    margin: 5px;
+    text-align: center;
 }
 
 .aboutme {
-display: flex;
-width: 100%;
-
+    width: 100%;
 }
 
 .holding {
-   background-color: #252a4a;
-   color: white;
-   padding: 100px;
+    background-color: #252a4a;
+    color: white;
+    padding: 100px;
+}
 
+.deets {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.or {
+    margin: 0px;
 }
 
 input[type=text], textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid: #252a4a;
-   border-radius: 4px;
-   box-sizing: border-box;
-   margin-top: 6px;
-   margin-bottom: 16px;
-   resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid: #252a4a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ }
+
+ #subject {
+   height: 12em;
+ }
+
+ #name, #email, #subject, #submit {
+   font-family: Roboto Mono;
  }
  
  input[type=submit] {
-   background-color:#252a4a;
-   color: white;
-   padding: 12px 20px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
+    background-color:#252a4a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
  }
 
- .container {
-   border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 20px;
+ .contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
  }
+
 footer {
-   display: flex;
-   width: 100%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.footernav {
+/*-------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1190px) {
+ body {
+    width: 85%;
+      }
+
+ header {
+    text-align: center;
+        }
+
+ h1 {
+    float: none;
+    margin: 2rem;
+      }
+
+ nav  {
+    float: none;
+    margin-top: 1rem;
+      }
+
+ a {
+    margin: 8%;
+      }
+
+ .introduction  {
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #252a4a;
+    margin-top: 2rem;
+    height: 20rem;
+      }
+
+.intro {
+    width: 80%;
+    height: 100%;
+    float: right; 
+      }
+
+ .hello {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+ }
+
+ .getintouch {
+   padding: 0.5em;
+   border-radius: 0.5rem;
+   margin-left: 4rem;    
+ }
+
+ .projects {
    
-   margin: 20px;
+      }
+.KB, .BC, .CB, .jc, .ap, .omjp  {
+    width: 48%; 
+      }
+ .html, .css, .js, .git, .chrome  {
+    height: 105%;
+       }
+
 }
 
+/*------------------------------------------------------------------------------------------*/
 
- 
- 
+@media screen and (max-width: 750px) {
+   body {
+    width: 90%;
+    }
+   header {
+      text-align: center;
+      }
+   h1 {
+   float: none;
+   margin: 2rem;
+    }
+   nav  {
+      float: none;
+      margin-top: 1rem;
+    }
+   a  {
+      margin: 4%;
+    }
+   .introduction  {
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-color: #252a4a;
+      margin-top: 2rem;
+      height: 15rem;
+    }
+
+   .intro {
+      width: 100%;
+    }
+
+   .hello  {
+      font-size: 0.6em;
+      padding-top: 2rem;
+      padding-left: 11rem;
+      padding-right: 1rem;
+    }
+
+    .getintouch, .holding {
+      display: none;
+    }
+   .projects {
+      flex-direction: column;
+      
+    }
+   .KB, .BC, .CB, .jc, .ap, .omjp  {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+   .html, .css, .js, .git, .chrome  {
+      height: 105%;
+     }
+   }
+
