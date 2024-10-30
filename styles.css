@@ -115,7 +115,6 @@ h5 {
 .deetsaboutme {
    margin-right: 2em;
    margin-top: 0%;
-  
 }
 
 #myImg {
@@ -291,17 +290,19 @@ footer {
     .getintouch, .holding {
       display: none;
     }
+
    .projects {
       flex-direction: column;
-      
     }
+
    .KB, .BC, .CB, .jc, .ap, .omjp  {
       width: 100%;
       margin-bottom: 1em;
     }
+
    .html, .css, .js, .git, .chrome  {
       height: 105%;
-     }
+   }
 
    .aboutme {
       display: block;
@@ -310,8 +311,7 @@ footer {
 
    .deetsaboutme {
       margin-right: 0;
-      margin-top: 0%;
-     
+      margin-top: 0%; 
    }
 
    #myImg {
