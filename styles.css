@@ -24,8 +24,8 @@ nav {
     margin-top: 2rem;
 }
 
-a {
-   color: black;
+.links {
+    color: black;
     margin-left: 6rem;
     text-decoration: none;
 }
@@ -57,10 +57,12 @@ a {
 
  .getintouch {
     background-color: white;
+    color:black;
     width: fit-content;
     padding: 1em;
     border-radius: 0.5rem;
     margin-left: 5rem;
+    text-decoration: none;
  }
 
  .projects  {
@@ -106,13 +108,19 @@ h5 {
 }
 
 .aboutme {
-    width: 100%;
+   display: flex;
+   width: 100%;
 }
 
-.holding {
-    background-color: #252a4a;
-    color: white;
-    padding: 100px;
+.deetsaboutme {
+   margin-right: 2em;
+   margin-top: 0%;
+  
+}
+
+#myImg {
+   width: 50%;
+   border-radius: 0.5rem;
 }
 
 .deets {
@@ -122,6 +130,11 @@ h5 {
 
 .or {
     margin: 0px;
+}
+
+.linkedin, .gith {
+    color: black;
+    text-decoration: none;
 }
 
 input[type=text], textarea {
@@ -186,7 +199,7 @@ footer {
     margin-top: 1rem;
       }
 
- a {
+ .links {
     margin: 8%;
       }
 
@@ -239,17 +252,22 @@ footer {
    header {
       text-align: center;
       }
+
    h1 {
    float: none;
    margin: 2rem;
     }
+
    nav  {
       float: none;
       margin-top: 1rem;
+      text-align: center;
     }
-   a  {
+
+   .links {
       margin: 4%;
     }
+
    .introduction  {
       background-size: cover;
       background-position: left;
@@ -284,5 +302,22 @@ footer {
    .html, .css, .js, .git, .chrome  {
       height: 105%;
      }
+
+   .aboutme {
+      display: block;
+      width: 100%;
    }
+
+   .deetsaboutme {
+      margin-right: 0;
+      margin-top: 0%;
+     
+   }
+
+   #myImg {
+      width: 100%;
+      border-radius: 0.5rem;
+   }
+}
+  
 
